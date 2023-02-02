@@ -20,9 +20,7 @@ Thanks for checking out this front-end coding challenge.
 
 Build out this intro section with dropdown navigation and get it looking as close to the design as possible.
 
-Although the challenge was to build out the landing page, my goal for me was to code in a way that is similar to how I would if the challenge was to build an entire website.
-
-I've recently started Nextjs so I used this challenge as an opportunity to practice.
+The challenge was to build out the landing page, and my goal was to code as if the challenge was to build an entire website. I've recently started learning Nextjs so I used this challenge as an opportunity to practice.
 
 Your users should be able to:
 
