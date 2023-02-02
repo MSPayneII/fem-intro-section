@@ -6,11 +6,9 @@ const AppProvider = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const openSidebar = () => {
-    console.log("open menu");
     setIsSidebarOpen(true);
   };
   const closeSidebar = () => {
-    console.log("close menu");
     setIsSidebarOpen(false);
   };
 

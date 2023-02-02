@@ -33,7 +33,12 @@ const Submenu = ({ title, subLinks, mainNav }) => {
       </button>
 
       {areLinksShowing && (
-        <ul className={assignSubmenuClasses(title, mainNav)}>
+        <ul
+          className={assignSubmenuClasses(title, mainNav)}
+          onMouseLeave={
+            mainNav ? () => setAreLinksShowing(!areLinksShowing) : null
+          }
+        >
           {subLinks.map((link, index) => {
             const { icon, name, url } = link;
             return (

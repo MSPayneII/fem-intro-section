@@ -32,10 +32,6 @@
   line-height: var(--lh-body16);
 }
 
-/* .navSubmenu {
-  position: relative;
-} */
-
 @media screen and (min-width: 1024px) {
   .navSubmenuBtn {
     gap: 0.625rem;

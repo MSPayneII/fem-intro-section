@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useGlobalContext } from "../../context/context";
 import CloseBtn from "../../public/images/icon-close-menu.svg";
 import Image from "next/image";
@@ -9,6 +9,21 @@ import classes from "./sidebar.module.css";
 
 const sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useGlobalContext();
+  const [screenSize, setScreenSize] = useState();
+
+  const checkSize = () => {
+    setScreenSize(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", checkSize);
+    if (screenSize > 1024) {
+      closeSidebar();
+    }
+    return () => {
+      window.removeEventListener("resize", checkSize);
+    };
+  }, [screenSize]);
   return (
     <>
       <div
