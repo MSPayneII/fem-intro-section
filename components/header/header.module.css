@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1.125rem 2rem 1.125rem;
+  max-width: var(--max-header);
+  margin: 0 auto;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.actionBtnContainer {
+  display: none;
+}
+
+.navToggle {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 2rem 2.5625rem 4rem 2.5625rem;
+  }
+
+  .logo {
+    margin-right: 3.9375rem;
+  }
+
+  .headerMain {
+    justify-content: flex-start;
+  }
+
+  .actionBtnContainer {
+    display: flex;
+    gap: 2.625rem;
+  }
+
+  .navToggle {
+    display: none;
+  }
+}

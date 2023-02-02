@@ -1,3 +1,58 @@
+# Frontend Mentor - Intro section with dropdown navigation
+
+![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Your challenge is to build out this intro section with dropdown navigation and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
+
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![](/desktop-design.jpg)
+
+### Links
+
+- Solution URL: []()
+- Live Site URL: []()
+
+## My process
+
+### Built with
+
+- Next/React
+- CSS
+
+## Author
+
+- Website - [Michael S. Payne II](https://michaelspayneii.com/index.html)
+- Frontend Mentor - [@MSPayneII](https://www.frontendmentor.io/profile/MSPayneII)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

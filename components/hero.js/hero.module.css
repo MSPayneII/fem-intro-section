@@ -1,0 +1,194 @@
+.hero {
+  display: grid;
+  place-items: center;
+  margin-bottom: 6.125rem;
+}
+
+.image {
+  background-image: url("../../public/images/image-hero-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 17.58rem;
+  margin-bottom: 3.3125rem;
+}
+
+.content {
+  text-align: center;
+}
+
+.header {
+  color: var(--clr-black);
+  font-size: var(--ff-heading-m);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-heading2);
+  letter-spacing: -0.03rem;
+  margin-bottom: 2rem;
+}
+
+.break {
+  display: none;
+}
+
+.body {
+  font-size: var(--ft-body16);
+  line-height: var(--lh-body16);
+  width: 21.4375rem;
+  margin-bottom: 3rem;
+}
+
+.heroBtn {
+  width: 8.5rem;
+  height: 3rem;
+  font-size: var(--ft-body16);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-body16);
+  letter-spacing: -0.014rem;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  border: 0.094rem solid var(--clr-black);
+  border-radius: var(--border-radius15);
+  padding: 1rem 1.5rem;
+}
+
+.heroBtn:hover {
+  background-color: transparent;
+}
+
+.clients {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 4rem auto 0 auto;
+}
+
+.clients li:not(:last-child) {
+  margin-right: 1.8135rem;
+}
+
+.dataBiz {
+  width: 5.1rem;
+  height: 0.9rem;
+}
+
+.audiophile {
+  width: 3.3rem;
+  height: 1.6rem;
+}
+
+.meet {
+  width: 4rem;
+  height: 0.89rem;
+}
+
+.maker {
+  width: 3.68rem;
+  height: 1.1rem;
+}
+
+@media screen and (min-width: 500px) {
+  .image {
+    height: 27.89rem;
+    width: 37.2rem;
+  }
+
+  .header {
+    font-size: var(--ft-heading-l);
+    line-height: var(--lh-heading1);
+    margin-bottom: 2.5rem;
+    width: 32.75rem;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .break {
+    display: inline-block;
+  }
+
+  .body {
+    font-size: var(--ft-body18);
+    line-height: var(--lh-body18);
+    width: 27.8125rem;
+    margin: 0 auto 3.75rem auto;
+  }
+
+  .heroBtn {
+    font-size: var(--ft-body18);
+    line-height: var(--lh-body18);
+    width: 10.1875rem;
+    height: 3.5rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .dataBiz {
+    width: 7.1rem;
+    height: 1.25rem;
+  }
+
+  .audiophile {
+    width: 4.5rem;
+    height: 2.24rem;
+  }
+
+  .meet {
+    width: 5.58rem;
+    height: 1.25rem;
+  }
+
+  .maker {
+    width: 5.13rem;
+    height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: flex-end;
+    margin-bottom: 8rem;
+  }
+
+  .image {
+    background-image: url("../../public/images/image-hero-desktop.png");
+    width: 30rem;
+    height: 40rem;
+    grid-column: 2;
+    grid-row: 1/-1;
+    margin: 0;
+  }
+
+  .header {
+    width: 30rem;
+  }
+
+  .body {
+    margin: 0 0 3.75rem 0;
+  }
+
+  .content {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+  }
+  .clients {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 0;
+  }
+  .clients li:not(:last-child) {
+    margin-right: 2.5625rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    justify-content: space-between;
+  }
+  .header {
+    width: 32.75rem;
+  }
+}

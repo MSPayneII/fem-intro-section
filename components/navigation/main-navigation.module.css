@@ -1,0 +1,20 @@
+.mainNavigation {
+  display: none;
+}
+
+.navList {
+  display: none;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .navList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .navList .listItem:not(:last-child) {
+    margin-right: 2.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.MobileNavigation {
+  margin-top: 5.1875rem;
+  margin-bottom: 2.5625rem;
+}
+
+.listItem {
+  list-style-type: none;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+
+.navLink {
+  font-size: var(--ft-body16);
+  line-height: var(--lh-body16);
+}

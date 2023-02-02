@@ -1,0 +1,24 @@
+.loginBtn,
+.registerBtn {
+  font-size: var(--ft-body16);
+  line-height: var(--lh-body16);
+}
+
+.loginBtn {
+  background: transparent;
+  border: none;
+}
+
+.registerBtn {
+  height: 2.625rem;
+  width: 12.1875rem;
+  background: transparent;
+  border: 0.094rem solid var(--clr-med-grey);
+  border-radius: var(--border-radius14);
+}
+
+@media screen and (min-width: 1024px) {
+  .registerBtn {
+    width: 6.5rem;
+  }
+}

@@ -1,0 +1,56 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--clr-black);
+  opacity: 0.75;
+  display: none;
+  place-items: center;
+  display: none;
+}
+
+.overlay.show {
+  display: grid;
+  z-index: 1;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 71%;
+  height: 100%;
+  background: var(--clr-white);
+  display: grid;
+  transition: var(--transition3);
+  transform: translate(150%);
+}
+.sidebar.showSidebar {
+  transform: translate(43%);
+  z-index: 1;
+}
+
+.sidebarContent {
+  padding: 1.375rem 1.25rem 0 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeBtn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: absolute;
+  right: 1.5rem;
+}
+
+.actionBtnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
