@@ -1,7 +1,5 @@
 # Frontend Mentor - Intro section with dropdown navigation
 
-![](./public/design/desktop-design.jpg)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
