@@ -14,17 +14,17 @@ Thanks for checking out this front-end coding challenge.
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
 
 ### The challenge
 
-Your challenge is to build out this intro section with dropdown navigation and get it looking as close to the design as possible.
+Build out this intro section with dropdown navigation and get it looking as close to the design as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Although the challenge was to build out the landing page, my goal for me was to code in a way that is similar to how I would if the challenge was to build an entire website.
+
+I've recently started Nextjs so I used this challenge as an opportunity to practice.
 
 Your users should be able to:
 
@@ -34,12 +34,12 @@ Your users should be able to:
 
 ### Screenshot
 
-![](/desktop-design.jpg)
+![](/public/design/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [Github](https://github.com/MSPayneII/fem-intro-section)
+- Live Site URL: [Netlify](https://mspayneii-intro-section.netlify.app/)
 
 ## My process
 
